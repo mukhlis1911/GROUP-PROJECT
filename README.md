@@ -11,7 +11,7 @@ JASA Club IIUM Mobile Application
 INTRODUCTION:
 - For our group, we decided to develop a mobile application for an IIUM club, JASA. This application will be used by the JASA club members and also their committees. 
 
-OBJECTIBES:
+OBJECTIVES:
 i) To help the committees to keep track of their club members easily.
 ii) To ease the club members to join and programmes or activites handled by the club.
 iii) To notify the members and also the committees regarding any programmes that are going to be held.
