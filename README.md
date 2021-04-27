@@ -6,7 +6,7 @@
 4) Aiman Haziq Bin Hairi (1728083)
 5) Izzat Izzqy Jasme (1722563)
 
-#**JASA CLUB IIUM MOBILE APPLICATION DEVELOPMENT 
+**JASA CLUB IIUM MOBILE APPLICATION DEVELOPMENT**
 
 #INTRODUCTION:
 - For our group, we decided to develop a mobile application for an IIUM club, JASA. This application will be used by the JASA club members and also their committees. 
