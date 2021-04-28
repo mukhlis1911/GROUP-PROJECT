@@ -22,3 +22,4 @@
 3) Join function for any programmes that the user is interested to take part. 
 4) Rewards and achievement page for users that has enrolled to any programmes.
 
+### Proposal presentation: https://youtu.be/O-Ju7ZxBo1s
