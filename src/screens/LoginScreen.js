@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Alert } from 'react-native';
 import { Container, Content, Footer, FooterTab, Button, Icon, Text, Form, Item, Label, Input } from 'native-base';
-import * as firebase from 'firebase';
+import firebase from 'firebase';
 
 
 export default class LoginScreen extends Component {
@@ -28,7 +28,7 @@ export default class LoginScreen extends Component {
          .auth()
          .signInWithEmailAndPassword(this.state.email, this.state.password)
          .then(() => {
-          this.props.navigation.navigate("List");
+          this.props.navigation.navigate("Home");
           })
          .catch(error => {
            Alert.alert('Status', error.toString(error));
@@ -45,7 +45,7 @@ export default class LoginScreen extends Component {
     return (
       <Container>
         <Content padder>
-        <Text style={{textAlign: "center", height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
+        <Text style={{textAlign: "center", fontFamily:'sans-serif', height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
         <Form>
         <Item floatingLabel last>
               <Label>Email</Label>
@@ -66,19 +66,19 @@ export default class LoginScreen extends Component {
         </Item>
         </Form>
 
-          <Button block last style={{marginTop: 50}} onPress={this.getLogin}>
-            <Text style={{fontWeight: "bold"}}>Login</Text>
+          <Button block last style={{marginTop: 50, backgroundColor:"darkolivegreen"}} onPress={this.getLogin}>
+            <Text style={{fontWeight: "bold", fontFamily:'sans-serif'}}>Login</Text>
           </Button>
-          <Text style={{textAlign: "center", height: 20, fontSize: 10, marginTop: 20}}>If you do not have an account yet, click below</Text>
+          <Text style={{textAlign: "center", fontFamily:'sans-serif', height: 20, fontSize: 10, marginTop: 20}}>If you do not have an account yet, click below</Text>
         </Content>
 
         <Footer>
           <FooterTab>
-             <Button onPress={() => this.props.navigation.navigate('Signup')} title="signup" >
+             <Button style={{backgroundColor:"darkolivegreen"}} onPress={() => this.props.navigation.navigate('Signup')} title="signup" >
           {/* <Button onPress={() => this.props.navigation.Actions(SignupScreen())} title="signup"> */}
           {/* <Button vertical onPress={() => {Actions.SignupScreen();}}> */}
-              <Icon name="person-add" />
-              <Text>Sign Up</Text>
+              <Icon name="person-add" style={{color: "white"}}/>
+              <Text style={{fontFamily:'sans-serif', color: "white"}}>Sign Up</Text>
             </Button>
           </FooterTab>
         </Footer>
