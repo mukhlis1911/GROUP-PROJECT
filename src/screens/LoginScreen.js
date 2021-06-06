@@ -45,7 +45,7 @@ export default class LoginScreen extends Component {
     return (
       <Container>
         <Content padder>
-        <Text style={{textAlign: "center", height: 40, fontWeight: "bold", marginTop: 20}}>Sign In</Text>
+        <Text style={{textAlign: "center", height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
         <Form>
         <Item floatingLabel last>
               <Label>Email</Label>
@@ -67,8 +67,9 @@ export default class LoginScreen extends Component {
         </Form>
 
           <Button block last style={{marginTop: 50}} onPress={this.getLogin}>
-            <Text style={{fontWeight: "bold"}}>Sign In</Text>
+            <Text style={{fontWeight: "bold"}}>Login</Text>
           </Button>
+          <Text style={{textAlign: "center", height: 20, fontSize: 10, marginTop: 20}}>If you do not have an account yet, click below</Text>
         </Content>
 
         <Footer>
