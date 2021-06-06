@@ -52,7 +52,7 @@ export default class SignupScreen extends Component {
     return (
       <Container>
         <Content padder>
-        <Text style={{textAlign: "center", height: 40, fontWeight: "bold", marginTop: 20}}>Sign Up</Text>
+        <Text style={{textAlign: "center", height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
         <Form>
         <Item floatingLabel last>
               <Label>Email</Label>
@@ -76,6 +76,7 @@ export default class SignupScreen extends Component {
           <Button block last style={{marginTop: 50}} onPress={this.signUp}>
             <Text style={{fontWeight: "bold"}}>Sign Up</Text>
           </Button>
+          
 
         </Content>
 
@@ -85,7 +86,7 @@ export default class SignupScreen extends Component {
           {/* <Button onPress={() => this.props.navigation.navigate('goToLoginScreen')} title="login"> */}
           {/* <Button vertical onPress={() => {Actions.LoginScreen();}}> */}
               <Icon name="log-in" />
-              <Text>Sign In</Text>
+              <Text>Login</Text>
             </Button>
           </FooterTab>
         </Footer>
