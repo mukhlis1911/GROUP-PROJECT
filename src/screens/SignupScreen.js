@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Alert } from 'react-native';
 import { Container, Content, Footer, FooterTab, Button, Icon, Text, Form, Item, Label, Input } from 'native-base';
-import * as firebase from 'firebase';
+import firebase from 'firebase';
 
 
 export default class SignupScreen extends Component {
@@ -52,7 +52,7 @@ export default class SignupScreen extends Component {
     return (
       <Container>
         <Content padder>
-        <Text style={{textAlign: "center", height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
+        <Text style={{textAlign: "center", fontFamily:'sans-serif', height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
         <Form>
         <Item floatingLabel last>
               <Label>Email</Label>
@@ -73,8 +73,8 @@ export default class SignupScreen extends Component {
         </Item>
         </Form>
 
-          <Button block last style={{marginTop: 50}} onPress={this.signUp}>
-            <Text style={{fontWeight: "bold"}}>Sign Up</Text>
+          <Button block last style={{marginTop: 50, backgroundColor:"darkolivegreen"}} onPress={this.signUp}>
+            <Text style={{fontWeight: "bold", fontFamily:'sans-serif'}}>Sign Up</Text>
           </Button>
           
 
@@ -82,11 +82,11 @@ export default class SignupScreen extends Component {
 
         <Footer>
           <FooterTab>
-          <Button onPress={() => this.props.navigation.navigate('Login')} title="Login">
+          <Button style={{backgroundColor:"darkolivegreen"}} onPress={() => this.props.navigation.navigate('Login')} title="Login">
           {/* <Button onPress={() => this.props.navigation.navigate('goToLoginScreen')} title="login"> */}
           {/* <Button vertical onPress={() => {Actions.LoginScreen();}}> */}
-              <Icon name="log-in" />
-              <Text>Login</Text>
+              <Icon name="log-in" style={{color: "white"}}/>
+              <Text style={{fontFamily:'sans-serif', color: "white"}}>Login</Text>
             </Button>
           </FooterTab>
         </Footer>
