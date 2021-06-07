@@ -45,7 +45,27 @@ export default class HomeScreen extends Component {
           </View>
 
         <Content padder>
-        {/* letak content korang dalam ni */}
+        <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 50, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Background</Text>
+        <View>
+              <Text style={{fontStyle:'bold', textAlign: "center", fontSize:16, alignSelf:'center'}}>Jalinan Siswa Bersama Masyarakat Orang Asli or its acronym JASA is one of the student's organization supervise under the University Centre for Community Engagement (UCCE) of International Islamic University Malaysia (IIUM).</Text>
+              <Text style={{fontStyle:'bold', textAlign: "center", fontSize:16, alignSelf:'center'}}>Established in the year of 2001, JASA now vigorously focuses on serving the aboriginal communities around Peninsular of Malaysia mainly on education as well as directly promote the Islamic values through our attitude and activities during the programs.</Text>
+              <Text style={{fontStyle:'bold', textAlign: "center", fontSize:16, height: 50, alignSelf:'center'}}>Due to some internal problems, this club was re-established in 2013.</Text>
+
+        <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 40, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Vision</Text>
+              <Text style={{fontStyle:'bold', textAlign: "center", fontSize:16, height: 50, alignSelf:'center'}}>To bring at least one aboriginal children to study at IIUM before 2023.</Text>
+
+        <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 40, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Mission</Text>
+              <Text style={{fontStyle:'bold', textAlign: "center", fontSize:16, height: 70, alignSelf:'center'}}>To develop a well-rounded aboriginal students who are knowledgeable, highly soft-skilled and possess good moral values.</Text>
+        
+        <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 40, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Motto</Text>
+              <Text style={{fontStyle:'italic', fontSize:20, alignSelf:'center', height: 100}}>Serve wholeheartedly, inspire humanity.</Text>
+              
+              <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 50, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>PRESIDENT</Text>
+              
+              <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>MANAGEMENT BOARD 2020/2021</Text>
+        
+        </View> 
+
         </Content>
 
         <Footer>
