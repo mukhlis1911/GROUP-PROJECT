@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Alert } from 'react-native';
+import { Alert, Image } from 'react-native';
 import { Container, Content, Footer, FooterTab, Button, Icon, Text, Form, Item, Label, Input } from 'native-base';
 import firebase from 'firebase';
 
@@ -9,7 +9,8 @@ export default class SignupScreen extends Component {
     super();
     this.state = {
       email: null,
-      password: null
+      password: null,
+      matricno: null
     };
   }
 
@@ -20,10 +21,14 @@ export default class SignupScreen extends Component {
   setPassword = (value) =>{
       this.setState({ password: value});
   }
+
+  setMatricno = (value) =>{
+    this.setState({ matricno: value});
+}
  
   signUp = () =>{
     try {
-       if(this.state.email && this.state.password){
+       if(this.state.email && this.state.password && this.state.matricno){
         firebase
             .auth()
             .createUserWithEmailAndPassword(this.state.email, this.state.password)
@@ -52,7 +57,8 @@ export default class SignupScreen extends Component {
     return (
       <Container>
         <Content padder>
-        <Text style={{textAlign: "center", fontFamily:'sans-serif', height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
+      
+        <Image source={{uri:'https://pbs.twimg.com/profile_images/1106361665455423488/96D1ohe0_400x400.jpg'}} style={{width: 270, height: 280, alignSelf: 'center'}}/>
         <Form>
         <Item floatingLabel last>
               <Label>Email</Label>
@@ -71,6 +77,16 @@ export default class SignupScreen extends Component {
                onChangeText={this.setPassword} 
               />
         </Item>
+        <Item floatingLabel last>
+              <Label>Matric Number</Label>
+              <Input
+               autoCapitalize="none"
+               autoCorrect={false} 
+               onChangeText={this.setMatricno} 
+              />
+        </Item>
+        
+        
         </Form>
 
           <Button block last style={{marginTop: 50, backgroundColor:"darkolivegreen"}} onPress={this.signUp}>
