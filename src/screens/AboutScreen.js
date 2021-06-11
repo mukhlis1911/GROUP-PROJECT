@@ -60,10 +60,12 @@ export default class HomeScreen extends Component {
         <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 40, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Motto</Text>
               <Text style={{fontStyle:'italic', fontSize:20, alignSelf:'center', height: 100}}>Serve wholeheartedly, inspire humanity.</Text>
               
-              <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 50, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>PRESIDENT</Text>
-              
-              <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>MANAGEMENT BOARD 2020/2021</Text>
-        
+              <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 90, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>BOARD OF JASA CLUB IIUM 2021/2022</Text>
+              <Image source={{uri:'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/147295620_3813698268652748_4627978938872631467_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=PLrZNpTAXnkAX9vg6t2&_nc_ht=scontent.fpen1-1.fna&oh=101a68f6722132b77e9d3204a567e388&oe=60C811AA'}} style={{width: 350, height: 220, alignSelf: 'center'}}/>
+
+              <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 90, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>MANAGEMENT BOARD 2020/2021</Text>
+              <Image source={{uri:'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/148904086_3833837009972207_6414847417021036296_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=HRSho-hQB3QAX8cOr8r&_nc_ht=scontent.fpen1-1.fna&oh=f95d839124e416fdbcc81522c658b71f&oe=60C84C3D'}} style={{width: 350, height: 250, alignSelf: 'center'}}/>
+             
         </View> 
 
         </Content>
