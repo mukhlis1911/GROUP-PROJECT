@@ -35,20 +35,24 @@ export default class HomeScreen extends Component {
 
   render() {
     return (
-      <Container>
-
+      <Container style={{backgroundColor:"floralwhite"}}>
           <View style={{alignSelf: "flex-end", width: 50}}>
               <Button style={{backgroundColor:"firebrick"}} onPress={() => {this.goToLoginScreen()}}>
               <Icon name="log-out" style={{color: "white"}}/>
               <Text style={{color: "white", fontFamily:'sans-serif'}}>Sign Out</Text>
               </Button>
           </View>
-         
+
 
         <Content padder>
+        <Image style={{ height: 200, width: 200, alignSelf: 'center'}} 
+        source={{ uri: 'https://pbs.twimg.com/profile_images/1106361665455423488/96D1ohe0_400x400.jpg'}} >
+        </Image>
+
         <Text style={{textAlign: "center", fontSize:32, fontFamily:'sans-serif', height: 70, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Club's News Feed</Text>
-        <View style={{height:230, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
-            <View style={{height:180, margin:10, backgroundColor:"floralwhite", borderRadius:30}}></View>
+        <View style={{height:500, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
+          <Image style={{ height: 400, width:400, margin:10, borderRadius:30, alignSelf: 'center'}} 
+          source={{ uri: 'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/196177372_4149129958442909_988458214195364183_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=RL-rEVBKkKwAX9kKrgg&_nc_ht=scontent.fpen1-1.fna&oh=f59cf6dc5944adb4cb246db5fb1ae601&oe=60C9758A'}}></Image>
             <View>
                 <Text style={{fontStyle:'italic', fontSize:14, alignSelf:'center'}}>POSTPONEMENT OF JASA's PROGRAM</Text>
             </View>
@@ -66,8 +70,9 @@ export default class HomeScreen extends Component {
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', height: 50, textAlign: 'center'}}>Sincerely, MBs🍀</Text>
 
             </View>
-        <View style={{height:230, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
-            <View style={{height:180, margin:10, backgroundColor:"floralwhite", borderRadius:30}}></View>
+        <View style={{height:500, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
+        <Image style={{ height: 400, width:400, margin:10, borderRadius:30, alignSelf: 'center'}} 
+          source={{ uri: 'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/187374160_4105582606130978_1229530361141001989_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=rNv3-khD2d8AX90yaSX&_nc_ht=scontent.fpen1-1.fna&oh=47477f88eb23370272012bb8484b8587&oe=60C8219A'}}></Image>
             <View>
                 <Text style={{fontStyle:'italic', fontSize:15, alignSelf:'center'}}>PRAY FOR PALESTINE</Text>
             </View>
@@ -85,8 +90,9 @@ export default class HomeScreen extends Component {
             
             </View>
 
-            <View style={{height:230, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
-            <View style={{height:180, margin:10, backgroundColor:"floralwhite", borderRadius:30}}></View>
+            <View style={{height:500, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
+            <Image style={{ height: 400, width:400, margin:10, borderRadius:30, alignSelf: 'center'}} 
+          source={{ uri: 'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/p960x960/184621685_4108332212522684_7505764014388480282_n.png?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=cetDZI5NhQAAX8Ub8mZ&_nc_ht=scontent.fpen1-1.fna&tp=30&oh=15a49fb1f4f9e310612cb3f0e3cdc9c7&oe=60C8EC1C'}}></Image>
             <View>
                 <Text style={{fontStyle:'italic', fontSize:14, alignSelf:'center'}}>📌 PROTECT MAH MERI TRIBE📌</Text>
             </View>
