@@ -35,7 +35,7 @@ export default class HomeScreen extends Component {
 
   render() {
     return (
-      <Container style={{backgroundColor:"floralwhite"}}>
+      <Container style={{backgroundColor:"mintcream"}}>
           <View style={{alignSelf: "flex-end", width: 50}}>
               <Button style={{backgroundColor:"firebrick"}} onPress={() => {this.goToLoginScreen()}}>
               <Icon name="log-out" style={{color: "white"}}/>
