@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Alert } from 'react-native';
+import { Alert, Image } from 'react-native';
 import { Container, Content, Footer, FooterTab, Button, Icon, Text, Form, Item, Label, Input } from 'native-base';
 import firebase from 'firebase';
 
@@ -45,7 +45,8 @@ export default class LoginScreen extends Component {
     return (
       <Container>
         <Content padder>
-        <Text style={{textAlign: "center", fontFamily:'sans-serif', height: 60, fontSize: 30, fontWeight: "bold", marginTop: 20}}>JASA CLUB</Text>
+          
+        <Image source={{uri:'https://pbs.twimg.com/profile_images/1106361665455423488/96D1ohe0_400x400.jpg'}} style={{width: 270, height: 280, alignSelf: 'center'}}/>
         <Form>
         <Item floatingLabel last>
               <Label>Email</Label>
