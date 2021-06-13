@@ -66,7 +66,6 @@ export default class HomeScreen extends Component {
                   <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Zaini Dahlan</Text>
                   <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
                   <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>Join</Button>
-                  {/* <TextInput value={matricNo} placeholder= 'Insert your matric number here' onChangeText= {value => this.setState({ matricNo: value })}></TextInput> */}
                 </View>
             </View>
         </View>
