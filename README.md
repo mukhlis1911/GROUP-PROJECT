@@ -36,7 +36,8 @@
 ![](https://user-images.githubusercontent.com/48074839/121811345-b80db980-cc96-11eb-9890-3599247037f7.jpeg)
 - After a successful sign up, the user will be redirected to this login page
 
-![]
+![](https://user-images.githubusercontent.com/48074839/121811754-e9d35000-cc97-11eb-8409-1e41f7c44537.jpeg)
+- The homepage of this application contains the news feed of the summary of the events that has occured for this club. 
 
 
 
