@@ -141,19 +141,19 @@ export default class HomeScreen extends Component {
           <FooterTab style={{backgroundColor:"darkolivegreen"}}>
             <Button  onPress={() => {this.goToHomeScreen()}}>
                 <Icon name="home" style={{color: "white"}}/>
-                <Text style={{color: "white", fontFamily:'sans-serif'}}>Home</Text>
+                <Text style={{color: "white", fontFamily:'sans-serif', fontSize:10}}>Home</Text>
             </Button>
             <Button onPress={() => {this.goToEventScreen()}}>
               <Icon name="calendar" style={{color: "white"}}/>
-              <Text style={{color: "white", fontFamily:'sans-serif'}}>Events</Text>
+              <Text style={{color: "white", fontFamily:'sans-serif', fontSize:10}}>Events</Text>
             </Button>
             <Button onPress={() => {this.goToAboutScreen()}}>
               <Icon name="search" style={{color: "white"}}/>
-              <Text style={{color: "white", fontFamily:'sans-serif'}}>About</Text>
+              <Text style={{color: "white", fontFamily:'sans-serif', fontSize:10}}>About</Text>
             </Button>
             <Button onPress={() => {this.goToAchievementScreen()}}>
               <Icon name="trophy" style={{color: "white"}}/>
-              <Text style={{color: "white", fontFamily:'sans-serif'}}>Achievement</Text>
+              <Text style={{color: "white", fontFamily:'sans-serif', fontSize:10}}>Achievement</Text>
             </Button>
           </FooterTab>
         </Footer>
