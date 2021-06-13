@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import { Alert, Image } from 'react-native';
 import { Container, Content, Footer, FooterTab, Button, Icon, Text, View, } from 'native-base';
 import firebase from 'firebase';
+
 
 
 export default class HomeScreen extends Component {
@@ -46,51 +47,63 @@ export default class HomeScreen extends Component {
 
         <Content padder>
         
-        <View style={{height:120, width: 300, marginBottom:30, alignSelf: 'center', marginTop: 20, backgroundColor:"lightgrey", borderRadius:10}}>
+        <View style={{width: 400, alignSelf: 'center', marginTop: 30, backgroundColor:"green", borderRadius:10}}>
           
-            <View>
-                <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Program’s name: [Diari Ramadan 1] Orang Asli: Realiti yang Tersingkap</Text>
-                <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15, height: 20}}>Date: 17.4.2021</Text>
-                <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Time: 2.30 pm - 3.30 pm</Text>
-                <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Description: Ustaz Zaini Dahlan</Text>
-                <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Starpoints: 30</Text>
-              
+            <View style={{marginTop:10}}>
+                <Text style={{fontStyle:'200', fontSize:18,  marginLeft:15, marginRight:15, marginBottom:10}}>[Diari Ramadan 1] Orang Asli: Realiti yang Tersingkap</Text>
+                <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
+                  <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 17.4.2021</Text>
+                  <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 2.30 pm - 3.30 pm</Text>
+                  <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Zaini Dahlan</Text>
+                  <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
+                  <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>Join</Button>
+                </View>
+            </View>
         </View>
+
+        <View style={{width: 400, alignSelf: 'center', marginTop: 30, backgroundColor:"green", borderRadius:10}}>
+          
+          <View style={{marginTop:10}}>
+              <Text style={{fontStyle:'200', fontSize:18,  marginLeft:15, marginRight:15, marginBottom:10}}>[Diari Ramadan 2] How to Become Budiman</Text>
+              <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 24.4.2021</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 10.00 pm - 12.00 pm</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15}}>Description: The best people are those who are most beneficial to others</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Speakers : Br. Firdaus Wong , Sr. Heliza Helmi and Sr. Hazwani Helmi</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 40</Text>
+                <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>Join</Button>
+              </View>
+          </View>
         </View>
 
-        <View style={{height:190, width: 300, marginBottom:30, alignSelf: 'center', marginTop: 20, backgroundColor:"lightgrey", borderRadius:10}}>
+        <View style={{width: 400, alignSelf: 'center', marginTop: 30, backgroundColor:"green", borderRadius:10}}>
           
-          <View>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Program’s name: [Diari Ramadan 2]  How To become budiman)</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15, height: 20}}>Date: 24/4/2021</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Time: 10.00 am- 12.00 pm</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Description: The best people are those who are most beneficial to others</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>SPEAKER : BR. FIRDAUS WONG , SR.HELIZA HELMI AND SR.HAZWANI HELMI</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Starpoints: 40</Text>
-      </View>
-      </View>
+          <View style={{marginTop:10}}>
+              <Text style={{fontStyle:'200', fontSize:18,  marginLeft:15, marginRight:15, marginBottom:10}}>[Diari Ramadan 3] Lailatul Qadar</Text>
+              <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 1.5.2021</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 2.30 pm</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Hamid Jusoh</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 40</Text>
+                <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>Join</Button>
+              </View>
+          </View>
+        </View>
 
-      <View style={{height:120, width: 300, marginBottom:30, alignSelf: 'center', marginTop: 20, backgroundColor:"lightgrey", borderRadius:10}}>
+        <View style={{width: 400, alignSelf: 'center', marginTop: 30, backgroundColor:"green", borderRadius:10}}>
           
-          <View>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Program’s name: [Diari Ramadan 3] Lailatul Qadar</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15, height: 20}}>Date: 1.5.2021</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Time: 2.30 pm</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Description: Ustaz Hamid Jusoh</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Starpoints: 40</Text>
-      </View>
-      </View>
+          <View style={{marginTop:10}}>
+              <Text style={{fontStyle:'200', fontSize:18,  marginLeft:15, marginRight:15, marginBottom:10}}>JASA's Sharing Islamic Knowledge Among People (SIKAP 1.0) Online</Text>
+              <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 5.5.2021</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 2.30 pm - 3.30 pm</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: SIKAP is a program that involves sharing sessions regarding the experiences and stories being with Orang Asli. This session, Br. Mubarak, an alumni of the JASA Club will be sharing his knowledge of the uniqueness of Orang Asli with us.</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
+                <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15, marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>Join</Button>
+              </View>
+          </View>
+        </View>
 
-      <View style={{height:240, width: 300, marginBottom:30, alignSelf: 'center', marginTop: 20, backgroundColor:"lightgrey", borderRadius:10}}>
-          
-          <View>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Programs’s name: Jasa’s Sharing Islamic Knowledge Among People (SIKAP 1.0) Online</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15, height: 20}}>Date: 5.5.2021</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Time: 2.30 pm-3.30 pm </Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Description: SIKAP ialah sebuah program yang melibatkan sesi perkongsian mengenai pengalaman dan kisah bersama orang asli. Pada kali ini, Br Mubarak iaitu Alumni Kelab JASA, akan  berkongsi ilmu mengenai keunikan orang asli bersama kita.</Text>
-              <Text style={{fontStyle:'bold', fontSize:14,  marginLeft:15, marginRight:15}}>Starpoints: 30</Text>
-      </View>
-      </View>
         </Content>
 
         <Footer>
