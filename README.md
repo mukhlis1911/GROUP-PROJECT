@@ -27,3 +27,7 @@
 3) Importing the media to our application causes us some significant difficulties and consume our time.
 
 ### Proposal presentation: https://youtu.be/O-Ju7ZxBo1s
+
+### SCREENSHOTS OF APPLICATIONS
+
+![](https://user-images.githubusercontent.com/48074839/121809624-197e5a00-cc90-11eb-90ef-e40e43af7569.jpg)
