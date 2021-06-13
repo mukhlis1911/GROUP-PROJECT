@@ -63,8 +63,8 @@ export default class HomeScreen extends Component {
                 <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
                   <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 17.4.2021</Text>
                   <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 2.30 pm - 3.30 pm</Text>
-                  <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Zaini Dahlan</Text>
-                  <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
+                  <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Zaini Dahlan</Text>
+                  <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
                   <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>
                     <Text>
                       Join
@@ -81,9 +81,9 @@ export default class HomeScreen extends Component {
               <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 24.4.2021</Text>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 10.00 pm - 12.00 pm</Text>
-                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15}}>Description: The best people are those who are most beneficial to others</Text>
-                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Speakers : Br. Firdaus Wong , Sr. Heliza Helmi and Sr. Hazwani Helmi</Text>
-                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 40</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15}}>Description: The best people are those who are most beneficial to others</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Speakers : Br. Firdaus Wong , Sr. Heliza Helmi and Sr. Hazwani Helmi</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 40</Text>
                 <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>
                     <Text>
                       Join
@@ -100,8 +100,8 @@ export default class HomeScreen extends Component {
               <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 1.5.2021</Text>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 2.30 pm</Text>
-                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Hamid Jusoh</Text>
-                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 40</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Hamid Jusoh</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 40</Text>
                 <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>
                     <Text>
                       Join
@@ -118,8 +118,8 @@ export default class HomeScreen extends Component {
               <View style={{backgroundColor:"lightgrey", borderBottomRightRadius:10, borderBottomLeftRadius:10}}>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginTop:10}}>Date: 5.5.2021</Text>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'150', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Time: 2.30 pm - 3.30 pm</Text>
-                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: SIKAP is a program that involves sharing sessions regarding the experiences and stories being with Orang Asli. This session, Br. Mubarak, an alumni of the JASA Club will be sharing his knowledge of the uniqueness of Orang Asli with us.</Text>
-                <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: SIKAP is a program that involves sharing sessions regarding the experiences and stories being with Orang Asli. This session, Br. Mubarak, an alumni of the JASA Club will be sharing his knowledge of the uniqueness of Orang Asli with us.</Text>
+                <Text style={{fontFamily:'sans-serif', fontWeight:'100', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
                 <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>
                     <Text>
                       Join
