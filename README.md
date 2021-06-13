@@ -21,7 +21,7 @@
 2) Join function for any programmes that the user is interested to take part. 
 3) Rewards and achievement page for users that has enrolled to any programmes.
 
-#### CHALLENGES AND DIFFICULTIES:
+### CHALLENGES AND DIFFICULTIES:
 1) The compatibility of compiling the code from different users as this application is developed among the group members.
 2) The obstacle that took most of our time is the connecting of our database to the firebase.
 3) Importing the media to our application causes us some significant difficulties and consume our time.
