@@ -30,4 +30,4 @@
 
 ### SCREENSHOTS OF APPLICATIONS
 
-![](https://user-images.githubusercontent.com/48074839/121809624-197e5a00-cc90-11eb-90ef-e40e43af7569.jpg)
+![]
