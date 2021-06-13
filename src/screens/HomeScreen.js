@@ -50,14 +50,13 @@ export default class HomeScreen extends Component {
         </Image>
 
         <Text style={{textAlign: "center", fontSize:32, fontFamily:'sans-serif', height: 70, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Club's News Feed</Text>
-        <View style={{height:500, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
+        <View style={{marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
           <Image style={{ height: 400, width:400, margin:10, borderRadius:30, alignSelf: 'center'}} 
           source={{ uri: 'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/196177372_4149129958442909_988458214195364183_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=RL-rEVBKkKwAX9kKrgg&_nc_ht=scontent.fpen1-1.fna&oh=f59cf6dc5944adb4cb246db5fb1ae601&oe=60C9758A'}}></Image>
             <View>
                 <Text style={{fontStyle:'italic', fontSize:14, alignSelf:'center'}}>POSTPONEMENT OF JASA's PROGRAM</Text>
             </View>
-        </View>
-            <View>
+            <View style={{alignSelf:"center", justifyContent:"center", width:"80%"}}>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', height: 20}}>Assalammualaikum wbt.</Text>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center'}}>Dear all Jasa Members,</Text>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center',textAlign: 'center'}}>In light to the worsening Covid-19 cases and the total lockdown (FMCO) that has been imposed by the government, we regret to announce that JASA Club will have to postpone several programs to another date. As of now, the affected programs are:</Text>
@@ -70,14 +69,15 @@ export default class HomeScreen extends Component {
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', height: 50, textAlign: 'center'}}>Sincerely, MBs🍀</Text>
 
             </View>
-        <View style={{height:500, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
+        </View>
+            
+        <View style={{marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
         <Image style={{ height: 400, width:400, margin:10, borderRadius:30, alignSelf: 'center'}} 
           source={{ uri: 'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/187374160_4105582606130978_1229530361141001989_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=rNv3-khD2d8AX90yaSX&_nc_ht=scontent.fpen1-1.fna&oh=47477f88eb23370272012bb8484b8587&oe=60C8219A'}}></Image>
             <View>
                 <Text style={{fontStyle:'italic', fontSize:15, alignSelf:'center'}}>PRAY FOR PALESTINE</Text>
             </View>
-        </View>
-            <View>
+            <View style={{alignSelf:"center", justifyContent:"center", width:"80%"}}>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', height: 20}}>Assalammualaikum wbt.</Text>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center',textAlign: 'left'}}>▶️ As all know, Palestine is facing with the Zionist attacks that have claimed many lives of the innocent people there.</Text>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', textAlign: 'left'}}>▶️ One of ways to help them is in the form of prayers such as reciting the qunut nazilah prayers.</Text>
@@ -89,15 +89,16 @@ export default class HomeScreen extends Component {
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', height: 65, textAlign: 'center'}}>Do not forget to include them also in our du’a. Selamat beramal. ✨</Text>
             
             </View>
+        </View>
 
-            <View style={{height:500, marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
+
+            <View style={{marginBottom:30, marginLeft:35, marginRight:35, backgroundColor:"lightgrey", borderRadius:20}}>
             <Image style={{ height: 400, width:400, margin:10, borderRadius:30, alignSelf: 'center'}} 
           source={{ uri: 'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/p960x960/184621685_4108332212522684_7505764014388480282_n.png?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=cetDZI5NhQAAX8Ub8mZ&_nc_ht=scontent.fpen1-1.fna&tp=30&oh=15a49fb1f4f9e310612cb3f0e3cdc9c7&oe=60C8EC1C'}}></Image>
             <View>
                 <Text style={{fontStyle:'italic', fontSize:14, alignSelf:'center'}}>📌 PROTECT MAH MERI TRIBE📌</Text>
             </View>
-        </View>
-            <View>
+            <View style={{alignSelf:"center", justifyContent:"center", width:"80%"}}>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', height: 20}}>Assalammualaikum wbt.</Text>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center',textAlign: 'center'}}>🔆 JASA Club IIUM is an Orang Asli based club and it is our concern to always assist Orang Asli community whenever needed.</Text>
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', textAlign: 'center'}}>Recently, there’s an issue related to one of Orang Asli tribes, Mah Meri.</Text>
@@ -107,6 +108,8 @@ export default class HomeScreen extends Component {
                 <Text style={{fontStyle:'bold', fontSize:15, alignSelf:'center', height: 50, textAlign: 'center'}}>🤲 Let’s pray for them and May Allah SWT ease everything.</Text>
             
             </View>
+        </View>
+
         </Content>
 
         <Footer>
