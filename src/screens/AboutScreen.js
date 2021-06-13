@@ -44,7 +44,7 @@ export default class HomeScreen extends Component {
               </Button>
           </View>
 
-        <Content padder>
+        <Content padder style={{alignSelf:"center", width:"80%"}}>
         <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 50, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>Background</Text>
         <View>
               <Text style={{fontStyle:'bold', textAlign: "center", fontSize:16, alignSelf:'center'}}>Jalinan Siswa Bersama Masyarakat Orang Asli or its acronym JASA is one of the student's organization supervise under the University Centre for Community Engagement (UCCE) of International Islamic University Malaysia (IIUM).</Text>
@@ -66,7 +66,7 @@ export default class HomeScreen extends Component {
               </View>
 
               <Text style={{textAlign: "center", fontSize:30, fontFamily:'sans-serif', height: 90, fontWeight: "bold", marginTop: 10, color:"darkolivegreen"}}>MANAGEMENT BOARD 2020/2021</Text>
-              <View style={{height:400, width: '100%'}}>
+              <View style={{height:150, width: '100%'}}>
                 <Image source={{uri:'https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/148904086_3833837009972207_6414847417021036296_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=HRSho-hQB3QAX8cOr8r&_nc_ht=scontent.fpen1-1.fna&oh=f95d839124e416fdbcc81522c658b71f&oe=60C84C3D'}} style={{width: '90%', height: '100%', alignSelf: 'center', resizeMode: 'contain'}}/>
               </View>
              
