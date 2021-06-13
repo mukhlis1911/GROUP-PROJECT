@@ -36,6 +36,8 @@
 ![](https://user-images.githubusercontent.com/48074839/121811345-b80db980-cc96-11eb-9890-3599247037f7.jpeg)
 - After a successful sign up, the user will be redirected to this login page
 
+![](https://user-images.githubusercontent.com/48074839/121811467-16d33300-cc97-11eb-803f-92beede7745a.jpeg)
+
 
 
 
