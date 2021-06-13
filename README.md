@@ -45,6 +45,8 @@
 ![](https://user-images.githubusercontent.com/48074839/121812048-ff954500-cc98-11eb-8cd0-9a89b828bdb5.jpeg)
 - This page contains the information regarding the background of the club and its mainboard
 
+![](https://user-images.githubusercontent.com/48074839/121812654-3d936880-cc9b-11eb-954b-34434a1f75c0.jpeg)
+- User will obtain starpoints for each event that they attend. This page will display the events starpoints that they have gained. 
 
 
 
