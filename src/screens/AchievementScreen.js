@@ -58,9 +58,9 @@ export default class HomeScreen extends Component {
             <Text style={{color: "black", fontFamily:'sans-serif', alignItems:'center', fontWeight:"800"}}>Total Starpoints Collected!</Text>
           </View>
 
-            <View style={{height:100, marginTop:50, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
+            <View style={{marginTop:50, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
               <Icon name="trophy" style={{color:"gold", alignSelf:'center',marginLeft:30}}/>
-              <Text style={{fontSize:15, marginLeft:35, marginTop:10, flexDirection:'column'}}>
+              <Text style={{fontSize:15, marginLeft:35, marginTop:10, marginBottom:10, flexDirection:'column'}}>
                 Society/Event: Annual Grand Meeting {"\n"} 
                 Level: University {"\n"}
                 Session: Semester 2, 2020/2021 {"\n"}
@@ -69,9 +69,9 @@ export default class HomeScreen extends Component {
               </Text>
             </View>
 
-            <View style={{height:110, marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
+            <View style={{marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
               <Icon name="trophy" style={{color:"gold", alignSelf:'center',marginLeft:30}}/>
-              <Text style={{fontSize:15, marginLeft:35, marginTop:10, flexDirection:'column'}}>
+              <Text style={{fontSize:15, marginLeft:35, marginTop:10, marginBottom:10, flexDirection:'column'}}>
                 Society/Event: [Diari Ramadan 1] Orang Asli: {"\n"}Realiti yang Tersingkap {"\n"} 
                 Level: University {"\n"}
                 Session: Semester 2, 2020/2021 {"\n"}
@@ -80,9 +80,9 @@ export default class HomeScreen extends Component {
               </Text>
             </View>
 
-            <View style={{height:110, marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
+            <View style={{marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
               <Icon name="trophy" style={{color:"gold", alignSelf:'center',marginLeft:30}}/>
-              <Text style={{fontSize:15, marginLeft:35, marginTop:10, flexDirection:'column'}}>
+              <Text style={{fontSize:15, marginLeft:35, marginTop:10, marginBottom:10, flexDirection:'column'}}>
                 Society/Event: [Diari Ramadan 2]  How To {"\n"}become budiman) {"\n"} 
                 Level: University {"\n"}
                 Session: Semester 2, 2020/2021 {"\n"}
@@ -91,9 +91,9 @@ export default class HomeScreen extends Component {
               </Text>
             </View>
 
-            <View style={{height:110, marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
+            <View style={{marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
               <Icon name="trophy" style={{color:"gold", alignSelf:'center',marginLeft:30}}/>
-              <Text style={{fontSize:15, marginLeft:35, marginTop:10, flexDirection:'column'}}>
+              <Text style={{fontSize:15, marginLeft:35, marginTop:10, marginBottom:10, flexDirection:'column'}}>
                 Society/Event: [Diari Ramadan 3] Lailatul {"\n"}Qadar {"\n"} 
                 Level: Univeristy {"\n"}
                 Session: Semester 2, 2020/2021 {"\n"}
@@ -102,9 +102,9 @@ export default class HomeScreen extends Component {
               </Text>
             </View>
 
-            <View style={{height:110, marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
+            <View style={{marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
               <Icon name="trophy" style={{color:"gold", alignSelf:'center',marginLeft:30}}/>
-              <Text style={{fontSize:15, marginLeft:35, marginTop:10, flexDirection:'column'}}>
+              <Text style={{fontSize:15, marginLeft:35, marginTop:10, marginBottom:10, flexDirection:'column'}}>
                 Society/Event: Jasa’s Sharing Islamic {"\n"}Knowledge Among People (SIKAP 1.0) Online {"\n"} 
                 Level: Univeristy {"\n"}
                 Session: Semester 2, 2020/2021 {"\n"}
@@ -113,9 +113,9 @@ export default class HomeScreen extends Component {
               </Text>
             </View>
             
-            <View style={{height:100, marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
+            <View style={{marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
               <Icon name="trophy" style={{color:"gold", alignSelf:'center',marginLeft:30}}/>
-              <Text style={{fontSize:15, marginLeft:35, marginTop:10, flexDirection:'column'}}>
+              <Text style={{fontSize:15, marginLeft:35, marginTop:10, marginBottom:10, flexDirection:'column'}}>
                 Society/Event: Protect Mah Meri Tribe {"\n"} 
                 Level: National {"\n"}
                 Session: Semester 1, 2019/2020 {"\n"}
@@ -124,9 +124,9 @@ export default class HomeScreen extends Component {
               </Text>
             </View>
 
-            <View style={{height:100, marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
+            <View style={{marginTop:20, marginLeft:20, marginRight:20, backgroundColor:"#acadac", borderRadius:10, flexDirection:'row'}}>
               <Icon name="trophy" style={{color:"gold", alignSelf:'center',marginLeft:30}}/>
-              <Text style={{fontSize:15, marginLeft:35, marginTop:10, flexDirection:'column'}}>
+              <Text style={{fontSize:15, marginLeft:35, marginTop:10, marginBottom:10, flexDirection:'column'}}>
                 Society/Event: Annual Grand Meeting {"\n"} 
                 Level: University {"\n"}
                 Session: Semester 2, 2018/2019 {"\n"}
