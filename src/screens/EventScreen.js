@@ -1,11 +1,15 @@
 import React, { Component, useState } from 'react';
 import { Alert, Image } from 'react-native';
-import { Container, Content, Footer, FooterTab, Button, Icon, Text, View, } from 'native-base';
+import { Container, Content, Footer, FooterTab, Button, Icon, Text, View, TextInput } from 'native-base';
 import firebase from 'firebase';
+import "firebase/firestore"
+
+export const firestore = firebase.firestore()
 
 
 
 export default class HomeScreen extends Component {
+
   constructor(){
     super();
   }
@@ -34,7 +38,12 @@ export default class HomeScreen extends Component {
         });
     }
 
+    state = {
+      matricNo: ""
+    }
+
   render() {
+    const { matricNo } = this.state
     return (
       <Container>
 
@@ -57,6 +66,7 @@ export default class HomeScreen extends Component {
                   <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Description: Ustaz Zaini Dahlan</Text>
                   <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 30</Text>
                   <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>Join</Button>
+                  {/* <TextInput value={matricNo} placeholder= 'Insert your matric number here' onChangeText= {value => this.setState({ matricNo: value })}></TextInput> */}
                 </View>
             </View>
         </View>
