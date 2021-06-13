@@ -27,6 +27,7 @@
 3) Importing the media to our application causes us some significant difficulties and consume our time.
 
 ### 5. SEQUENCE DIAGRAM
+![](https://user-images.githubusercontent.com/48074839/121811111-e0e17f00-cc95-11eb-9763-15ee6b0567bf.jpeg)
 
 ### SCREENSHOTS OF APPLICATIONS
 ![](https://user-images.githubusercontent.com/48074839/121810848-ed190c80-cc94-11eb-8590-2ece285bcf77.jpeg)
