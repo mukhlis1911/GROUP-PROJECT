@@ -33,6 +33,9 @@
 ![](https://user-images.githubusercontent.com/48074839/121810848-ed190c80-cc94-11eb-8590-2ece285bcf77.jpeg)
 - This is the page where user will signup before becoming a member in this application
 
+![](https://user-images.githubusercontent.com/48074839/121811345-b80db980-cc96-11eb-9890-3599247037f7.jpeg)
+- After a successful sign up, the user will be redirected to this login page
+
 
 
 
