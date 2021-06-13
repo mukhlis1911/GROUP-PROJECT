@@ -80,7 +80,9 @@ export default class HomeScreen extends Component {
                 <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15}}>Description: The best people are those who are most beneficial to others</Text>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:5}}>Speakers : Br. Firdaus Wong , Sr. Heliza Helmi and Sr. Hazwani Helmi</Text>
                 <Text style={{fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10}}>Starpoints: 40</Text>
-                <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>Join</Button>
+                <Button style={{backgroundColor: "forestgreen", width:90, height:30, justifyContent: 'center', fontFamily:'sans-serif', fontWeight:'80', fontSize:15,  marginLeft:15, marginRight:15, marginBottom:10, borderRadius:10}}>
+<Text>join</Text> 
+</Button>
               </View>
           </View>
         </View>
