@@ -29,6 +29,7 @@
 ### Proposal presentation: https://youtu.be/O-Ju7ZxBo1s
 
 ### SCREENSHOTS OF APPLICATIONS
+![](https://user-images.githubusercontent.com/48074839/121810848-ed190c80-cc94-11eb-8590-2ece285bcf77.jpeg)
 
 
 
