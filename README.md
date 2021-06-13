@@ -18,8 +18,12 @@
 
 ### FEATURES AND FUNCTIONALITIES: 
 1) Registration function for new members, current members and committees.
-2) Notification function to notify their users regarding any important announcement or programmes that is going to be held.
-3) Join function for any programmes that the user is interested to take part. 
-4) Rewards and achievement page for users that has enrolled to any programmes.
+2) Join function for any programmes that the user is interested to take part. 
+3) Rewards and achievement page for users that has enrolled to any programmes.
+
+#### CHALLENGES AND DIFFICULTIES:
+1) The compatibility of compiling the code from different users as this application is developed among the group members.
+2) The obstacle that took most of our time is the connecting of our database to the firebase.
+3) Importing the media to our application causes us some significant difficulties and consume our time.
 
 ### Proposal presentation: https://youtu.be/O-Ju7ZxBo1s
