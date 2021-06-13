@@ -42,6 +42,8 @@
 ![](https://user-images.githubusercontent.com/48074839/121811911-8138a300-cc98-11eb-8959-910337f69bed.jpeg)
 - The event page is where the users can see the list of the events that they are interested to join
 
+![](https://user-images.githubusercontent.com/48074839/121812048-ff954500-cc98-11eb-8cd0-9a89b828bdb5.jpeg)
+- This page contains the information regarding the background of the club and its mainboard
 
 
 
