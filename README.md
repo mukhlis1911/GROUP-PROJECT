@@ -37,7 +37,10 @@
 - After a successful sign up, the user will be redirected to this login page
 
 ![](https://user-images.githubusercontent.com/48074839/121811754-e9d35000-cc97-11eb-8409-1e41f7c44537.jpeg)
-- The homepage of this application contains the news feed of the summary of the events that has occured for this club. 
+- The homepage of this application contains the news feed of the summary of the events that has occured for this club 
+
+![](https://user-images.githubusercontent.com/48074839/121811911-8138a300-cc98-11eb-8959-910337f69bed.jpeg)
+- The event page is where the users can see the list of the events that they are interested to join
 
 
 
